@@ -62,6 +62,14 @@ A deal-room knowledge wiki built with Claude Managed Agents. This project demons
 
 [Go to Managed Agents Knowledge Wiki Quickstart](./managed-agents/knowledge-wiki)
 
+### Agents
+A minimal, educational implementation of LLM agents built directly on the Claude API — no SDK required. This project demonstrates the core loop behind effective agents (an LLM using tools in a loop) in under 300 lines of code, with local and MCP tool implementations plus a runnable demo notebook. It is deliberately un-opinionated, making it a good starting point for translating agent patterns into your own stack.
+[Go to Agents Quickstart](./agents)
+
+### Managed Agents: assistant-ui
+A spreadsheet analyst in a chat window, built with [assistant-ui](https://www.assistant-ui.com/) on the frontend and a Claude Managed Agent session per conversation on the backend. The backend holds the transcript, runs `bash` with pandas in a sandbox, and streams every step back as events; drop in a CSV, ask a question, and approve each shell command inline before it runs.
+[Go to Managed Agents assistant-ui Quickstart](./managed-agents/assistant-ui)
+
 ## General Usage
 
 Each quickstart project comes with its own README and setup instructions. Generally, you'll follow these steps:
