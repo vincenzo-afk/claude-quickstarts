@@ -14,7 +14,7 @@
     "typecheck": "npm run typecheck --workspace server && npm run typecheck --workspace web"
   },
   "devDependencies": {
-    "concurrently": "10.0.3"
+    "concurrently": "10.0.5"
   },
   "overrides": {
     "rxjs": "7.8.1"
