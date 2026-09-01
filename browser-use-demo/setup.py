@@ -6,7 +6,7 @@ setup(
     packages=find_packages(),
     python_requires=">=3.11",
     install_requires=[
-        "streamlit==1.41.0",
+        "streamlit==1.54.0",
         "anthropic[bedrock,vertex]>=0.39.0",
         "jsonschema==4.22.0",
         "boto3>=1.28.57",
@@ -15,7 +15,7 @@ setup(
     ],
     extras_require={
         "test": [
-            "pytest==8.3.3",
+            "pytest==9.0.3",
             "pytest-cov==4.1.0",
             "pytest-mock==3.11.1",
             "pytest-asyncio==0.23.6",
